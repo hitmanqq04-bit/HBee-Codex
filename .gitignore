@@ -34,3 +34,14 @@ Thumbs.db
 # Temporary workbench artifacts
 tmp/
 temp/
+.tmp/
+tmp-playwright-cli/
+.playwright-cli/
+
+# Generated local indexes / restored skills
+.codegraph/
+.agents/skills/
+
+# Ad-hoc dated local scratch directories
+/2026-09-27/
+/2026-10-01/
