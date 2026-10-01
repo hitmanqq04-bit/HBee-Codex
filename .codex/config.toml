@@ -1,0 +1,11 @@
+# HBee-Codex project-local Codex baseline.
+# Codex loads project .codex configuration only when the repository is trusted.
+
+approval_policy = "on-request"
+sandbox_mode = "workspace-write"
+web_search = "cached"
+model_reasoning_effort = "medium"
+personality = "pragmatic"
+
+[features]
+memories = false

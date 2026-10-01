@@ -22,3 +22,19 @@ This repository is a controlled workspace for learning, configuring, testing, an
 Build → Run → Observe → Test/Break → Repair → Regression → Promote.
 
 Experimental capabilities remain isolated until they have executable evidence.
+
+## Portable baseline
+
+HBee-Codex separates portable repository state from machine-specific runtime state.
+
+Portable baseline:
+
+- `AGENTS.md`
+- `.codex/config.toml`
+- `skills-lock.json`
+- `scripts/setup-cloud.sh`
+- durable evidence and experiment conventions
+
+Machine-local integrations such as OAuth state, absolute Windows MCP paths, CodeGraph indexes, Playwright cache, and restored `.agents/skills/` are not committed.
+
+For Codex Cloud, use `bash scripts/setup-cloud.sh` as the environment install command. The current skills baseline is restorable rather than immutable-source-pinned; see `docs/cloud-environment.md` for the promotion gate and limitation.
