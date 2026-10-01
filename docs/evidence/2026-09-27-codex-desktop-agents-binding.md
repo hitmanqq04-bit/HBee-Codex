@@ -15,7 +15,7 @@ Repository:
 
 Local workspace:
 
-`C:\Users\bee\Documents\HBee-Codex`
+`<LOCAL_WORKSPACE>\HBee-Codex`
 
 Branch:
 
@@ -25,8 +25,8 @@ Branch:
 
 The tested Desktop task reported:
 
-- repository root = `C:\Users\bee\Documents\HBee-Codex`
-- current working directory = `C:\Users\bee\Documents\HBee-Codex`
+- repository root = `<LOCAL_WORKSPACE>\HBee-Codex`
+- current working directory = `<LOCAL_WORKSPACE>\HBee-Codex`
 - active branch = `codex/bootstrap-v0.1`
 - upstream = `origin/codex/bootstrap-v0.1`
 - working tree = clean
@@ -46,7 +46,7 @@ Desktop result:
 
 From:
 
-`C:\Users\bee\Documents\HBee-Codex`
+`<LOCAL_WORKSPACE>\HBee-Codex`
 
 the user ran:
 
