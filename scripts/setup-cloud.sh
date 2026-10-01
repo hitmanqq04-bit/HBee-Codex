@@ -6,6 +6,11 @@ if [[ ! -f "skills-lock.json" ]]; then
   exit 1
 fi
 
+# Codex Cloud may expose a HOME npm cache that exists but cannot create
+# cache subdirectories reliably. Keep the cache runtime-local and writable.
+export npm_config_cache="${npm_config_cache:-/tmp/hbee-npm-cache}"
+mkdir -p "$npm_config_cache"
+
 npx -y skills@1.7.0 experimental_install
 
 expected=25
